@@ -1,5 +1,5 @@
 # SunCoin Installation Script
-Shell script to install a [SunCoin Masternode](http://suncoin-network.com/) on a Linux server running Ubuntu 16.04. Use it on your own risk.
+Shell script to install a [SunCoin Masternode](http://suncoin-network.com/) on a Linux server running Ubuntu 16.04. It will install and setuop masternode and sentinel job. Use it on your own risk.
 ***
 
 ## Desktop wallet setup  
@@ -23,6 +23,8 @@ wget -q https://raw.githubusercontent.com/tipinatipi/suncoin/master/suncoin_inst
 bash suncoin_install.sh
 ```
 You will need *masternodeprivkey* during installation. Once installed, go back to your local wallet and start masternode by clicking **Start Alias** button in Masternodes tab.
+
+If you want sentinel to run up immediately, you must reboot after successful installation.
 
 ## Usage:
 ```
